@@ -492,7 +492,176 @@ h1, h2, h3, h4, h5, h6, p {
   color: #282938;
 }
 
-/* ========= service part start ============*/
-/* ========= tesimonial part start ============*/
-/* ========= blogs part start ============*/
+/* ========= contact part start ============*/
+#contact {
+  padding: 128px 0;
+}
+#contact .contact_main {
+  display: flex;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+}
+#contact .contact_main .contact_left {
+  width: 328px;
+}
+#contact .contact_main .contact_left h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 110%;
+  padding-bottom: 16px;
+}
+#contact .contact_main .contact_left h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  color: #2405F2;
+}
+#contact .contact_main .contact_right {
+  width: 846px;
+}
+#contact .contact_main .contact_right .contact_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 2px solid #ECECF1;
+  padding: 32px 0;
+}
+#contact .contact_main .contact_right .contact_item:last-child {
+  border-bottom: none;
+}
+#contact .contact_main .contact_right .contact_item .con_info {
+  display: flex;
+  -moz-column-gap: 53px;
+       column-gap: 53px;
+  align-items: start;
+}
+#contact .contact_main .contact_right .contact_item .con_info .con_number span {
+  color: #2405F2;
+  font-size: 24px;
+  line-height: 36px;
+}
+#contact .contact_main .contact_right .contact_item .con_info .con_taxt h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 36px;
+  padding-bottom: 16px;
+}
+#contact .contact_main .contact_right .contact_item .con_info .con_taxt p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 36px;
+  width: 624px;
+}
+#contact .contact_main .contact_right .contact_item .con_icon i {
+  color: #282938;
+  font-size: 18px;
+  opacity: 0.7;
+  line-height: 36px;
+}
+
+/* ========= building part start ============*/
+#building .building_main {
+  display: flex;
+}
+#building .building_main .building_left {
+  width: 695px;
+  height: 691px;
+  overflow: hidden;
+  position: relative;
+}
+#building .building_main .building_left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#building .building_main .building_left .building_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 30, 83, 0.5);
+  padding: 96px;
+}
+#building .building_main .building_left .building_overlay h2 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 74px;
+  padding-bottom: 24px;
+}
+#building .building_main .building_left .building_overlay p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+  color: #fff;
+  padding-right: 30px;
+}
+#building .building_main .building_right {
+  width: 624px;
+  background-color: #1C1E53;
+  height: 691px;
+  padding: 96px 96px 46px 96px;
+}
+#building .building_main .building_right h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 16px;
+}
+#building .building_main .building_right p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+  color: #fff;
+  line-height: 28px;
+}
+#building .building_main .building_right a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+#building .building_main .building_right form {
+  margin-top: 40px;
+}
+#building .building_main .building_right form input {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  height: 64px;
+  color: #F4F6FC;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  padding: 18px 32px;
+  width: 100%;
+}
+#building .building_main .building_right form button {
+  margin-top: 25px;
+  margin-bottom: 28px;
+  border: none;
+  background-color: transparent;
+  background-color: #FCD980;
+  width: 100%;
+  height: 64px;
+  border-radius: 41px;
+  padding: 16px 51px;
+  color: #282938;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* ========= blog part start ============*/
+#blog {
+  padding: 128px 0;
+}
+
 /* ========= footer part start ============*//*# sourceMappingURL=style.css.map */
