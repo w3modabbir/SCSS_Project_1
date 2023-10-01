@@ -1,0 +1,29 @@
+/* ========= copyright part start ============*/
+#copyright{
+    padding: 32px 0;
+    .copyright_main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .copy_text{
+            p{
+                @include common_heading(16px, 500, $primarycolor);
+            }
+        }
+        .copy_menu {
+            ul{
+                display: flex;
+                column-gap: 32px;
+                align-items: center;
+                li{
+                    a{
+                        color: $primarycolor;
+                        font-size: 18px;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
