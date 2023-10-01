@@ -1,4 +1,53 @@
 /* ========= blog part start ============*/
 #blog{
     padding: 128px 0;
+    .blog_heading{
+        padding-bottom: 64px;
+        h3{
+            @include common_heading(48px, 600, $primarycolor);
+        }
+    }
+
+    .blog_main{
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+        .blog_item{
+            width: 410px;
+            .blog_img{
+                width: 100%;
+                height: 285px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .blog_text{
+                padding-top: 40px;
+                span{
+                    @include common_heading(16px, 500, $primarycolor);
+                    padding-bottom: 16px;
+                }
+                h3{
+                    @include common_heading(24px, 600, $primarycolor);
+                    line-height: 36px;
+                    padding-bottom: 16px;
+                }
+                p{
+                    @include common_heading(16px, 400, $primarycolor);
+                    line-height: 28px; 
+                    padding-bottom: 32px;
+                }
+                a{
+                    @include common_heading(16px, 500, $primarycolor);
+                    text-transform: capitalize;
+                    i{
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+    }
 }
