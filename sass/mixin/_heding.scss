@@ -1,0 +1,5 @@
+@mixin common_heading($fsize, $fweight, $color){
+    font-size: $fsize;
+    font-weight: $fweight;
+    color: $color;
+}

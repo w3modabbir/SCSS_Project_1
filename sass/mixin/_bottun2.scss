@@ -1,0 +1,8 @@
+@mixin common_btn2($fsize, $fweight, $color){
+    font-size: $fsize;
+    font-weight: $fweight;
+    color: $color;
+    border-radius: 41px;
+    padding: 16px 56px;
+    background-color: $footerbg;
+}

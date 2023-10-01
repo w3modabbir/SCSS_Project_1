@@ -1,0 +1,6 @@
+@mixin pera($fsize, $fweight, $color){
+    font-size: $fsize;
+    font-weight: $fweight;
+    line-height: 170%;
+    color: $color;
+}

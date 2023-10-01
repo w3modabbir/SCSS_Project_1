@@ -1,0 +1,51 @@
+/* ========= navbar part start ============*/
+#navbar{
+    padding: 32px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    .nav_main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            width: 25%;
+        }
+
+        .nav_menu{
+            width: 50%;
+            ul{
+                display: flex;
+                column-gap: 32px;
+                justify-content: center;
+                align-items: center;
+                li a{
+                    color: $menucolor2;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    transition: all linear .3s;
+                    &:hover{
+                        color: $menucolor;
+                    }
+                }
+            }
+        }
+
+        .nav_btn{
+            text-align: end !important;
+            a{
+                @include common_btn (18px, 500);
+                transition: all linear .3s;
+                &:hover{
+                    background-color: $footerbg;
+                    border: none;
+                    color: $hoverclor;
+                }
+            }
+        }
+    }
+}

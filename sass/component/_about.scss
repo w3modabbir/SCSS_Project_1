@@ -1,0 +1,60 @@
+/* ========= about part start ============*/
+#about{
+    background-color: $workbg;
+    padding: 130px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    .about_main{
+        display: flex;
+        column-gap: 110px;
+        .about_left{
+            h3{
+                @include common_heading(48px, 500, $primarycolor);
+                line-height: 120%;
+                padding-bottom: 16px;
+            }
+            p{
+                @include pera(16px, 400, $primarycolor);
+                width: 330px;
+            }
+        }
+
+        .about_right{
+            h4{
+                @include common_heading(28px, 500, $primarycolor);
+                line-height: 150%;
+                width: 745px;
+                padding-bottom: 48px;
+            }
+
+            .right_info{
+                display: flex;
+                align-items: center;
+                column-gap: 15px;
+
+                .about_right_img{
+                    width: 52px;
+                    height: 52px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .about_right_text{
+                    h3{
+                        @include common_heading(18px, 500, $primarycolor);
+                        padding-bottom: 15px;
+                    }
+                    h5{
+                        @include common_heading(16px, 400, $primarycolor);
+                    }
+                }
+            }
+           
+        }
+    }
+}

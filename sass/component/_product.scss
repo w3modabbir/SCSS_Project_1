@@ -1,0 +1,49 @@
+/* ========= product part start ============*/
+#product{
+    padding: 128px 0;
+    background-color: $workbg;
+    .product_heding{
+        text-align: center;
+        padding-bottom: 50px;
+        h5{
+            @include pera(16px, 500, $primarycolor);
+            padding-bottom: 12px;
+            text-transform: capitalize;
+        }
+        h3{
+            @include common_heading(48px, 600, $primarycolor);
+            line-height: 150%;
+            width: 630px;
+            margin: 0 auto;
+        }
+    }
+
+    .product_main{
+        display: flex;
+        column-gap: 32px;
+        row-gap: 24px;
+        flex-wrap: wrap;
+        .product_item{
+            background-color: #fff;
+            padding: 56px 33px 48px 40px ;
+            width: 415px;
+            i{
+                color: $acolor;
+                font-size: 30px;
+                padding-bottom: 23px;
+            }
+            h3{
+                @include common_heading(25px, 600, $primarycolor);
+                text-transform: capitalize;
+                padding-bottom: 12px;
+            }
+            p{
+                @include pera(16px, 500, $primarycolor);
+                width: 325px;
+                line-height: 200%;
+                
+            }
+           
+        }
+    }
+}
